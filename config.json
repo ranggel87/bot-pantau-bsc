@@ -1,0 +1,14 @@
+{
+  "RPC_HTTPS": "https://bsc.publicnode.com",
+  "RPC_HTTPS_FALLBACK": "https://1rpc.io/bnb",
+  "RPC_WSS": "",
+  "CHAIN_ID": 56,
+  "ROUTERS": {
+    "pancake_v3_swaprouter": "0x1b81D678ffb9C0263b24A97847620C99d213eB679",
+    "pancake_v2_router": "0x10ED43C718714eb63d5aA57B78B54704E256024E"
+  },
+  "PAIRS_WATCH": ["BNB/USDT", "ETH/USDT", "BTCB/USDT"],
+  "DB_PATH": "data/tx_pool.db",
+  "BOT_THRESHOLD_TX_PER_DAY": 100,
+  "SNAPSHOT_BLOCKS": 30
+}
